@@ -3,10 +3,12 @@
     padding: 0;
     margin: 0;
 }
+/* configures how the browser calculates the box size, and sets padding and margin to 0 for all elements  */
 
 body {
     background-color: #d9dcd6;
 }
+/* Sets the background color for the body of the page  */
 
 .header {
     padding: 20px;
@@ -14,17 +16,20 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
+/* formats the header container with padding, font, font color, and background color */
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
+ /* specifies the display type and font size for the title in the header  */
 
 .header h1 .seo {
     color: #d9dcd6;
 }
+/* sets the font color for the span in the title of the header  */
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +37,12 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
