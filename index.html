@@ -4,10 +4,13 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Horiseon: Search Engine Optimization</title><!--Added specific title to make it easier to identify page and content-->
+
+    <!--Added specific title to make it easier to identify page and content-->
+    <title>Horiseon: Search Engine Optimization</title>
 </head>
 
 <body>
+    
     <!--Site Header-->
     <header class="header">
         <!-- h1: The most important title; has a span to create a special effect-->
@@ -25,84 +28,115 @@
                 <li>
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
-            </ul>
             <!--closes menu list-->
-        </nav>
+            </ul>
         <!--closes menu section-->
+        </nav>
+    <!--closes the site header-->    
     </header>
-    <!--closes the site header-->
+    
+    <!-- opens the main image for the website  -->
     <div class="hero">
-    </div>
+        <!-- added in image tage to optimize accessibility  -->
+        <img src="./assets/images/digital-marketing-meeting.jpg" alt="Office workers smiling">
     <!--Closes div that contains website main image-->
-    <div class="content">
-    <!-- opens the container for the main content of the page  -->
+    </div>
+    
+    <!-- opens the container for the main content of the page; changed div to main to optimize accessibility  -->
+    <main class="content">
+        <!-- opens section 1 for main content; SEO information  -->
         <section id="search-engine-optimization" class="search-engine-optimization"><!--included id to link this section to menu a href-->
-        <!-- opens section 1 for main content; SEO info  -->
+            <!-- added alt text to optimize accessibility  -->
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Coffe and notebook saying SEO"/> <!--added alt text-->
+            <!-- subtitle, the second most important title  -->
             <h2>Search Engine Optimization</h2>
-            <!-- subtitle; second most important tye of title  -->
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
-        </section>
         <!--closes section 1 containing content about SEO-->
+        </section>
+        
+        <!-- opens section 2 for main content; online reputation management information  -->
         <section id="online-reputation-management" class="online-reputation-management" >
-            <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="Computer screen that reads Reputation" /><!--added alt text-->
+            <!-- added alt text to optimize accessibility  -->
+            <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="Computer screen that reads Reputation" />
+            <!-- subtitle, the second most important title  -->
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
+        <!-- closes section 2 containing online reputation management information  -->
         </section>
+
+        <!-- opens section 3 for main content; social media marketing information  -->
         <section id="social-media-marketing" class="social-media-marketing">
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="Social media icons on a table"/><!--added alt text-->
+            <!-- added alt text to optimize accessibility  -->
+            <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="Social media icons on a table"/>
+            <!-- subtitle, the second most important title  -->
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
+        <!-- closes section 3 containing social media marketing information  -->
         </section>
-    </div>
+
+    <!-- closes main content  -->
+    </main>
+
+    <!-- changed tag to aside to optimize accessibility  -->
     <aside class="benefits">
+        <!-- opens section containing lead generation information  -->
         <section class="benefit-lead">
-            <!-- opens div containing lead generation info  -->
+            <!-- sub subtitle; 3rd most important title  -->
             <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" />
+            <!-- added alt text to optimize accessibility  -->
+            <img src="./assets/images/lead-generation.png" alt="Gears funneling out money"/>
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
+        <!-- closes section containing lead generation information  -->
         </section>
-        <!-- closes div containing lead generation -->
+        
+        <!-- opens section containing brand awareness information  -->
         <section class="benefit-brand">
-            <!-- opens div containing brand awareness info  -->
+            <!-- sub subtitle; 3rd most important title  -->
             <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" />
+            <!-- added alt text to optimize accessibility  -->
+            <img src="./assets/images/brand-awareness.png" alt="Light bulb head of business attired body emmanating light" />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
+        <!-- closes section containing brand awareness -->
         </section>
-        <!-- closes div containing brand awareness -->
+        
+        <!-- opens section containing cost management information  -->
         <section class="benefit-cost">
-            <!-- opens div containing cost management info  -->
+            <!-- sub subtitle; 3rd most important title  -->
             <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png">
-            <!--removed unnecessary </img> tag-->
+            <!--removed unnecessary </img> tag and added alt text to optimize accessibility-->
+            <img src="./assets/images/cost-management.png" alt="Gears and dollar signs">
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
+        <!-- closes section containing cost management -->
         </section>
-        <!-- closes div containing cost management -->
+    <!--  closes aside containing benefits information -->    
     </aside>
-    <!--  closes div containing benefits information -->
+    
+    <!-- changed div tag to footer to optimize accessibility  -->
     <footer class="footer">
-        <!-- opens div containing footer info  -->
-        <h2>Made with ❤️️ by Horiseon</h2>
-        <!-- h2 is subtitle; the second most important title  -->
+        <!-- changed to h4. h4 is a sub sub subtitle; the fourth most important title  -->
+        <h4>Made with ❤️️ by Horiseon</h4>
+        
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
+    <!-- closes div containing footer information -->
     </footer>
-    <!-- closes div containing footer -->
+    
+<!-- closes the body of the webpage  -->    
 </body>
-<!-- closes the body of the webpage  -->
 
-</html>
 <!-- closes the html doctype tag  -->
+</html>
+
