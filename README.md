@@ -7,7 +7,8 @@ Accessibility is a very important aspect of web development for these reasons:
 2. Creates a website with elements that make it clearer what type of content it contains increasing SEO ranking.
 3. Makes code clearer for developers streamlining future edits.
 
-Here is snapshot of the page: ./assets/images/overview.jpg
+Here is snapshot of the page: [Develop](./assets/images/overview.jpg)
+
 
 
 
