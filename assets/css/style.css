@@ -29,7 +29,7 @@ body {
     color: #d9dcd6;
 }
 
-
+/* sets the top padding, right margin, font family and size for the nav element within the element with the header class; also makes it float right  */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
