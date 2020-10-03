@@ -1,33 +1,34 @@
+/* configures how the browser calculates the box size of elements, and sets padding and margin to 0 for all elements  */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-/* configures how the browser calculates the box size, and sets padding and margin to 0 for all elements  */
 
+/* Sets the background color for the body of the page  */
 body {
     background-color: #d9dcd6;
 }
-/* Sets the background color for the body of the page  */
 
+/* formats the element of the header class with padding, font, font color, and background color */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-/* formats the header container with padding, font, font color, and background color */
 
+/* specifies the display type and font size for the h1 in the element with the header class  */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
- /* specifies the display type and font size for the title in the header  */
-
+ 
+/* sets the font color for the element with class seo within the h1 element within the element with the header class  */
 .header h1 .seo {
     color: #d9dcd6;
 }
-/* sets the font color for the span in the title of the header  */
+
 
 .header nav {
     padding-top: 15px;
@@ -200,6 +201,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
